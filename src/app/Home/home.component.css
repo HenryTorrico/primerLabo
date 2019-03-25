@@ -1,7 +1,7 @@
 .fondo{
     background-image: url('http://www.hdfondos.eu/pictures/2012/0226/1/orig_516077.jpg  ');
     background-color:red;
-  	height: 1500px;
+  	height: 2000px;
   	width: 1500px;
   background-repeat:no-repeat;
   background-size:cover;
@@ -38,15 +38,5 @@
 }
 .izquierda{
   background-repeat:no-repeat;
- 
 
 }
-
-.tales {
-  width: 100%;
-}
-.carousel-inner{
-  width:50%;
-  max-height: 300px !important;
-}
-

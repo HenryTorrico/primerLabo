@@ -12,8 +12,7 @@
     <div class="checkbox">
       <label><input type="checkbox"> Remember me</label>
     </div>
-    <a [routerLink]="['/Home']" [routerLinkActive]="['activado']">Login</a>
-        <button (click)="generar();">Generar Json File!!!</button>
+    <a (click)="generar();" [routerLink]="['/Home']" [routerLinkActive]="['activado']">Login</a>
   </form>
 </body>
 <router-outlet></router-outlet>
