@@ -1,0 +1,63 @@
+<body class="fondo">
+	<h1 class="titulo">
+		{{titulo}}
+	</h1>
+<div class="container">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+	<a class="navbar-brand" [routerLink]="['/Home']" [routerLinkActive]="['activado']">Home</a>
+	<ul class="navbar-nav">
+		 <li class="nav-item">
+			<a  class="nav-link" [routerLink]="['/aboutus']" [routerLinkActive]="['activado']">Acerca de Nosotros</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" [routerLink]="['/donations']" [routerLinkActive]="['activado']">Donaciones</a>
+		</li>
+	</ul>	
+</nav>
+</div>
+<div class="center" style="color: white">
+  <div class="panel-heading">
+    <h2 class="panel-title" style="color: black">Estas Contento con nuestros servicios?
+    <br>
+     <strong>Danos una Propina!</strong></h2>
+  </div>
+</div>
+<br/>
+<br/>	
+<div class="center2" style="color: darkorchid">
+	Si te sientes satisfecho con nuestro INCREIBLE servicio, y sientes que no
+	pagaste lo suficiente? DANOS UNA PROPINA!
+</div>
+<div class="center2" style="color: darkorchid">
+	Mandanos un mail a: guillerbauti@gmail.com y nos pondremos en contacto contigo.
+</div>
+<div class="center3">
+	GRACIAS!!!
+</div>
+<div class="derecha" [routerLink]="['/contact']" [routerLinkActive]="['activado']">
+	<span>
+		C
+		<br/>
+		O
+		<br/>
+		N
+		<br/>
+		T
+		<br/>
+		A
+		<br/>
+		C
+		<br/>
+		T
+		<br/>
+		A
+		<br/>
+		N
+		<br/>
+		O
+		<br/>
+		S
+		<br/>
+	</span>
+</div>
+<router-outlet></router-outlet>

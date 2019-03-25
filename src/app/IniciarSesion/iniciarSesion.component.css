@@ -1,0 +1,7 @@
+.fondo{
+    background-image: url('https://coecadiz.com/wp-content/uploads/2018/06/fondo-login-web.jpg');
+  	height: 1000px;
+  	width: 1500px;
+  background-repeat:no-repeat;
+  background-size:cover;
+}

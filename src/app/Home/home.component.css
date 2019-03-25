@@ -1,0 +1,52 @@
+.fondo{
+    background-image: url('http://www.hdfondos.eu/pictures/2012/0226/1/orig_516077.jpg  ');
+    background-color:red;
+  	height: 1500px;
+  	width: 1500px;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.center {
+	color: solid green;
+	font-weight: bolder;	 
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.center2 {
+	font-weight: bolder;	 
+  margin: auto;
+  width: 30%;
+  height: 10%;
+  font-size: 20px;
+
+}
+
+.titulo{
+    margin-top: 55px;
+	margin-bottom: 10%;
+	color: lightskyblue	;
+	text-align: center;
+}
+.derecha{
+	margin-right : 120px;
+ 	text-align: right;    
+ 	font-size: 25px;
+	color: magenta;
+	font-style: italic;
+	font-weight: bolder;
+}
+.izquierda{
+  background-repeat:no-repeat;
+ 
+
+}
+
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:50%;
+  max-height: 300px !important;
+}
+

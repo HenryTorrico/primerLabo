@@ -1,0 +1,62 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$('.carousel').carousel({
+  interval: 2
+})
+</script>
+<body class="fondo">
+	<h1 class="titulo">
+		{{titulo}}
+	</h1>
+	<div class="container">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+	<a class="navbar-brand" [routerLink]="['/Home']" [routerLinkActive]="['activado']">Home</a>
+	<ul class="navbar-nav">
+		 <li class="nav-item">
+			<a  class="nav-link" [routerLink]="['/aboutus']" [routerLinkActive]="['activado']">Acerca de Nosotros</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" [routerLink]="['/donations']" [routerLinkActive]="['activado']">Donaciones</a>
+		</li>
+	</ul>	
+</nav>
+</div>
+	<div class="t1">
+		¿POR QUE ELEGIRNOS?
+	</div>
+	<p class="t2">
+		Se aproxima un gran evento y no sabes a quien llamar para que arme un ambiente que incluya diseño, iluminación y comida. Siempre estos eventos nos retan porque son ocasiones en las que sencillamente no podemos fallar.
+
+		Nuestros invitados merecen lo mejor, así que la cuestion va más allá de una buena propuesta extendida por una empresa, ya que la calidad está ante todo y se comprueba a la hora de degustar cualquier platillo.
+
+		De esta forma BG Catering no solo ofrece la calidad que buscas en cada una de tus presentaciones. También es capaz de mostrarte la más amplia variedad de comida para eventos, la cual no solo resaltará en los testimonios de los invitados, sino que también podrás confirmarla personalmente cuando degustes cualquiera de nuestros platos.
+	</p>
+	<div class="derecha" [routerLink]="['/contact']" [routerLinkActive]="['activado']">
+	<span>
+		C
+		<br/>
+		O
+		<br/>
+		N
+		<br/>
+		T
+		<br/>
+		A
+		<br/>
+		C
+		<br/>
+		T
+		<br/>
+		A
+		<br/>
+		N
+		<br/>
+		O
+		<br/>
+		S
+		<br/>
+	</span>
+</div>
+</body>
+<router-outlet></router-outlet>

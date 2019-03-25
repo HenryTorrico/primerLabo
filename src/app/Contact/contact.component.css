@@ -1,0 +1,58 @@
+.fondo{
+    background-image: url('https://besthqwallpapers.com/Uploads/10-11-2018/71399/thumb2-4k-wood-texture-wood-cut-wooden-deck-dark-wood.jpg');
+    background-color:red;
+
+  	height: 1300px;
+  	width: 1500px;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.titulo{
+    margin-top: 55px;
+	margin-bottom: 10%;
+	color: lightskyblue	;
+	text-align: center;
+}
+.derecha{
+	margin-right : 120px;
+ 	text-align: right;
+ 	font-size: 25px;
+	color: magenta;
+	font-style: italic;
+	font-weight: bolder;
+
+}
+.center {
+	color: solid green;
+	font-weight: bolder;	 
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.derecha{
+	margin-right : 120px;
+ 	text-align: right;
+ 	font-size: 25px;
+	color: magenta;
+	font-style: italic;
+	font-weight: bolder;
+
+}
+.center2 {
+	font-weight: bolder;	 
+  margin: auto;
+  width: 30%;
+  height: 10%;
+  font-size: 20px;
+
+}
+.center3 {
+	font-weight: bolder;	 
+  margin: auto;
+  width: 30%;
+  height: 10%;
+  font-size: 100px;
+  color: crimson;
+  align-content: center;
+}
